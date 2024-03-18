@@ -6,7 +6,7 @@ It creates a note and stores it in a given directory, then opens the file in Neo
 Clone the repo, edit the `config.json` file to point to the directory where you want your notes to be stored. You can also change the default file format here.
 Build using either `cargo build` (debug), or `cargo build --release` (optimised release build).
 
-### Using `cargo build`:
+### Using `cargo run`:
 Place the `config.json` file in the same directory as the compilsed binary i.e. `target/debug/`.
 You should now be able to run the script by calling `cargo run -- filename`.
 
