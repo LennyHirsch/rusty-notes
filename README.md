@@ -5,7 +5,7 @@ Creates a note (with default format .md) and stores it in a given directory, the
 ## Installation
 Clone the repo, and build using `cargo build --release`.
 Edit the `config.json` file to point to the directory where you want your notes to be stored. You can also change the default file format here.
-Place the `config.json` file in the same directory as the compiled binary i.e. `target/release/`.
+Place the `config.json` file in the same directory as the compiled binary i.e. `target/release/` (or `target/debug/` if you have not built for release).
 
 ## Using Rusty Notes
 I recommend creating a new alias to run the executable.
