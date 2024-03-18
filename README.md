@@ -23,7 +23,7 @@ Save changes to the profile, and restart the shell.
 Bash: I dunno I haven't got this far yet, bear with me.
 
 ## Usage
-Run the binary with a single argument: the name of the new note e.g. `note hello_world`. A file called `hello_world.md` will be created and opened in Neovim for editing.
+Run the binary with a single argument: the name of the new note e.g. `note hello_world`. A file called `hello_world.md` will be created in the directory specified in `config.json`, and opened in Neovim for editing.
 If you don't add a file extension to the name, it will be created with the default file format (.md). If a file extension is given, that extension will be used for the newly created note.
 The default file format can be changed in the config.json file.
 
