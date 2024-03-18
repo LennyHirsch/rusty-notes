@@ -23,8 +23,8 @@ Once the new alias is created, run the binary with a single argument: the name o
 If you don't add a file extension to the name, it will be created with the default file format (.md). If a file extension is given, that extension will be used for the newly created note.
 The default file format can be changed in the config.json file.
 
-### Using `cargo build` (debug build)
-Place the `config.json` file in the same directory as the compiled binary i.e. `target/debug/`.
-You should now be able to run the script by calling `cargo run -- filename`.
-
 [NOTE]: Once the binary is compiled, only the `rusty_notes.exe` binary and the `config.json` file are needed. The source files can be discarded; just make sure to place `config.json` in the same directory as `rusty_notes.exe`.
+
+### Using `cargo build` (debug build)
+If you have not built for release, place the `config.json` file in the same directory as the compiled binary i.e. `target/debug/`.
+You should now be able to run the script by calling `cargo run -- filename`.
