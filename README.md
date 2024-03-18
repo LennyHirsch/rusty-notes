@@ -2,6 +2,9 @@
 Rusty Notes is a simple, command line-based note taking tool written in Rust.
 It creates a note and stores it in a given directory, then opens the file in Neovim for editing.
 
+A #rustynote tag is inserted on the first line. This should allow for relatively easy integration into note-taking software such as Logseq.
+By setting the notes directory to Logseq's `pages` folder, any new notes are put directly in here, and can be found by Logseq. These notes can be found simply by searching for the #rustynote tag.
+
 ## Installation
 Clone the repo, edit the `config.json` file to point to the directory where you want your notes to be stored. You can also change the default file format here.
 Build using either `cargo build` (debug), or `cargo build --release` (optimised release build).
